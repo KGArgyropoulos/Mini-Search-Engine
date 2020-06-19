@@ -3,7 +3,7 @@ This application is using an inverted index, in order to store a set of document
 
 
 **Compile & Execute** \
-Compilation command: make
+Compilation command: make \
 Execution command: ./minisearch -i docfile -k K \
 where docfile is the name of the file which contains the documents to be stored in the program \
 and K is the parameter which indicates the number of results that should be returned in each query.
