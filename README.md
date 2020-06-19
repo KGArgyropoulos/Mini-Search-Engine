@@ -2,7 +2,7 @@
 This application is using an inverted index, in order to store a set of documents and respond with keyword queries, returning t to the user the top-k texts related to the query. \
 
 
-**<Compile & Execute** \
+**Compile & Execute** \
 Compilation command: make
 Execution command: ./minisearch -i docfile -k K \
 where docfile is the name of the file which contains the documents to be stored in the program \
