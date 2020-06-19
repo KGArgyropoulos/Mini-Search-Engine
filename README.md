@@ -9,7 +9,7 @@ where docfile is the name of the file which contains the documents to be stored 
 and K is the parameter which indicates the number of results that should be returned in each query.
 
 **Interface** \
-Options that can be given when the program is in running mode\
+Options that can be given when the program is in running mode
 - /search q1 q2 ... q10 \
     search for given words into documents 
 - /df \
