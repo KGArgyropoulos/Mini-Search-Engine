@@ -25,11 +25,11 @@ Options that can be given when the program is in running mode
 - Inverted index, which is the matching between every word appearing in the texts and the texts.
     * Form: [word | [text_1,tf_1] [text_2,tf_2] ...]
 - Posting List, which is the list on the left of the inverted index ([text_1,tf_1] [text_2,tf_2]).
-- Trie **trie.png**, which is implemented is order to accelerate our search inside the inverted index.
+- Trie (**trie.png**), which is implemented is order to accelerate our search inside the inverted index.
     * Trie stores the words of the texts. Its leaves hold the corresponding posting list. 
 
 **Score Calculation**\
-    **score.png**
+(**score.png**)
 - qi : query's word
 - f(qi, D) : term frequency qi, in the text
 - |D| : number of words in the text
