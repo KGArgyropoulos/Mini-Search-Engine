@@ -28,8 +28,8 @@ Options that can be given when the program is in running mode
 - Trie **trie.png**, which is implemented is order to accelerate our search inside the inverted index.
     * Trie stores the words of the texts. Its leaves hold the corresponding posting list. 
 
-**Score Calculation** \
-- **score.png**
+**Score Calculation**\
+    **score.png**
 - qi : query's word
 - f(qi, D) : term frequency qi, in the text
 - |D| : number of words in the text
