@@ -19,9 +19,9 @@ Options that can be given when the program is in running mode
 - /exit \
     exit from the application 
 
-**Data Structures** \
+**Data Structures** 
 - Map of the content of each text.\
-* Form: [id | Text] \
+    * Form: [id | Text] \
 - Inverted index, which is the matching between every word appearing in the texts and the texts \
 * Form: [word | [text_1,tf_1] [text_2,tf_2] ...] \
 - Posting List, which is the list on the left of the inverted index ([text_1,tf_1] [text_2,tf_2]).\
